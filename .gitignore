@@ -1,0 +1,21 @@
+# Expo / development downloads
+user-app/Expo-Go-*.apk
+
+# Dependencies
+node_modules/
+
+# Expo generated files
+.expo/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+android/
+ios/
+
+# Logs
+*.log
