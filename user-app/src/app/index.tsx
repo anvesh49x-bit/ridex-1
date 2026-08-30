@@ -14,9 +14,9 @@ export default function SplashScreen() {
   const { width, height } = useWindowDimensions();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      router.replace('/(tabs)');
-    }, SPLASH_DURATION);
+   const timer = setTimeout(() => {
+  router.replace('/auth');
+}, SPLASH_DURATION);
 
     return () => clearTimeout(timer);
   }, []);

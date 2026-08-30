@@ -13,13 +13,6 @@ export default function TabsLayout() {
           title: 'Home',
         }}
       />
-
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-        }}
-      />
     </Tabs>
   );
 }
